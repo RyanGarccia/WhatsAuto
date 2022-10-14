@@ -4,6 +4,6 @@ $sender = $_POST["sender"];
 $message = $_POST["message"];
 $phone = $_POST["phone"];
 
-$response = array("reply" => "Olá, $sender segue a nossa chave pix: 91993508026.");
+$response = array("reply" => "Olá, $sender segue a nossa chave pix: $pix.");
 echo json_encode($response);
 ?>
